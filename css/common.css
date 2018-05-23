@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000000;
+    /*font-family: "平方","微软雅黑","宋体";*/
+
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    font-style: normal;
+}
+
+input,textarea,button{
+    border: none;
+    outline: none;
+}

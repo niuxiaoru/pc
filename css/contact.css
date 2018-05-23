@@ -1,0 +1,75 @@
+header{
+    width: 100%;
+    height: 400px;
+}
+header .contactBen{
+    width: 100%;
+    height: 100%;
+    background: url("../img/banner6.jpg");
+}
+.cont-weiZi{
+    width: 100%;
+    height: 545px;
+    background: url("../img/bg.jpg");
+    position: relative;
+}
+#dituContent{
+    width:600px;
+    height:300px;
+    border:#ccc solid 1px;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    z-index: 9;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.cont-content{
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont-content .cont-box{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont-content .cont-box .small{
+    /*flex-grow: 1;*/
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.cont-content .cont-box span{
+    font-size: 14px;
+    color: #fff;
+    display: block;
+}
+.cont-content .cont-box .small input{
+    width: 93%;
+    height: 34px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 2px;
+    border-color: transparent;
+
+}
+.cont-content .cont-box .small .xing{
+    margin-left: 10px;
+    color: red;
+    line-height: 34px;
+}
+.cont-content .cont-box .botton{
+    width: 130px;
+    height: 44px;
+    background: #f54f4f;
+    color: #FFFFFF;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 2px;
+}

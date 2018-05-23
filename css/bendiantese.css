@@ -1,0 +1,70 @@
+header{
+    width: 100%;
+    height: 400px;
+}
+header .benBan{
+    width: 100%;
+    height: 100%;
+    background: url("../img/banner3.jpg");
+}
+.tese-bigBox{
+    width: 1200px;
+    height: 800px;
+    margin:100px auto;
+    /*margin-top: 100px;*/
+    position: relative;
+}
+ .tese-title{
+    width: 1200px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #df1786;*/
+}
+.tese-bigBox .tese-title div {
+    width: 98px;
+    height: 36px;
+    background: #EEEEEE;
+    border-radius: 50px;
+    font-size: 16px;
+    color: rgb(151,150,150);
+    margin-right: 12px;
+    line-height: 36px;
+    text-align: center;
+}
+.tese-bottomBox{
+    position: absolute;
+    top: 98px;
+    left:0;
+}
+.tese-content{
+    width: 1200px;
+    height: 322px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+.tese-content li{
+    width: 280px;
+    height: 322px;
+    /*background: #EEEEEE;*/
+    /*margin-right: 10px;*/
+}
+.tese-content li a{
+    display: block;
+}
+.tese-content li a img{
+    width: 100%;
+    height: 278px;
+    display: block;
+}
+.tese-content li span{
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    color: #666;
+    display: block;
+}
